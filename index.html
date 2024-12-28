@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     
+    <div class="container">
+        <form action="">
+            <table>
+                <h1 class="form__head">Registration Form</h1>
+                <tr>
+                    <td class="credentials">Name:</td>
+                    <td><input  type="text" id="form_name"></td>
+                </tr>
+                <tr>
+                    <td class="credentials">e-mail:</td>
+                    <td><input  type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td class="credentials">Password:</td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+            </table>
 
+            <br>
+
+            <button class="submit__button" id="submit-button">Submit</button>
+        </form>
+    </div>
 
     <script src="./script.js"></script>
 </body>
