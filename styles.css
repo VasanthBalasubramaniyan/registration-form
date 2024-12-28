@@ -11,7 +11,7 @@
 
 .container{
     padding: 15px;
-    width: 300px; 
+    width: 500px; 
     margin: 100px auto;
     /* text-align: center; */
     background-color: #33306B;
@@ -43,13 +43,9 @@ input:focus{
     color: white;
     border: solid white;
 }
-.hidden {
-    display: hidden;
-}
-.error__msg img{
-    width: 15px;
-}
 
-.error__msg{
-    display: none;
+
+.name__error,.email__error,.password__error{
+    color: red;
+    font-weight: bold;
 }
